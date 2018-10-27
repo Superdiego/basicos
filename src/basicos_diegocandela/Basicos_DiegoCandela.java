@@ -20,6 +20,7 @@ public class Basicos_DiegoCandela {
          numericos();  // Llamada al método
          
                   
+    logicos();
     }
          /**
      * Método para mostrar ejemplos de tipos numericos.
@@ -78,5 +79,22 @@ public class Basicos_DiegoCandela {
         //Mostrar en pantalla el contendido de las variables de tipos básicos.
         System.out.println(texto);
 
+   /**
+     * Método para mostrar ejemplos de tipos lógioos.
+     */
+    }
+    public static void logicos() {
+
+        //Estos son los tipos básicos
+        boolean cotilleo;
+        
+
+        //Ejemplos de asignación de valores a las variables de tipos básicos
+        cotilleo = true;
+        
+
+        //Mostrar en pantalla el contendido de las variables de tipos básicos.
+        if(cotilleo==true)System.out.println("Ese rumor es cierto");
+        else System.out.println("");
     } 
 }
